@@ -1,0 +1,77 @@
+
+.container-login input{
+    border:none;
+    width: 100%;
+    border-bottom: var(--primary-color) solid 2px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+
+}
+.container-login input:focus{
+    outline: none;
+}
+.container-login label{
+font-size: 1.3rem;
+margin: 2rem 0;
+color: var(--secondary-color);
+}
+.container-login{
+    flex-direction: column;     
+    width: 50vw;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px ;
+}
+
+.container-login img{
+    margin:2rem 0;
+    width: 20vw;
+    height: 20vh;
+}
+.container-login form{
+    width: 80%;
+    height: 50%;
+}
+
+
+.container-bnt-login{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.container-bnt-login button{
+    width: 70%;
+    height: 45px;
+    margin: 0 1rem;
+    border: none;
+    color: white;
+    background-color: var(--bg-color);
+    border-radius: 15px;
+    font-size: 1rem;
+}
+.container-bnt-login button:hover{
+    cursor: pointer;
+    background-color: #28456b;
+    transform: scale(1.1);
+}
+.container-bnt-login a:hover{
+    cursor: pointer;
+    background-color: #28456b;
+    transform: scale(1.1);
+}
+.container-bnt-login a{
+    text-decoration: none;
+    text-align: center;
+    width: 70%;
+    padding: 0.8rem;
+    /* height: 45px; */
+    margin: 0 1rem;
+    border: none;
+    color: white;
+    background-color: var(--bg-color);
+    border-radius: 15px;
+}

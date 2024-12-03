@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --bg-color:#001E45;
+    --secondary-color: #E39329;
+    --primary-color: #001E45;
+    font-family: sans-serif;
+}
+
+/* .container{
+     width: 100vw;
+     height: 100vh;
+} */
+header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+flex-direction: row;
+padding: 1rem 1.5rem;
+}
+header img{
+    width: 20%;
+    height: 20%;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header nav{
+    height: 25%;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    padding: 0 1.2rem;
+}
+
+
+.container-card-cup{
+    /* width: 100vw; */
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 5% 5%;
+    /* background-color: var(--bg-color)   ; */
+    padding: 1rem;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+    height: 100%;
+    
+}
+.item-card-cup{
+    /* width: 50vw; */
+    background-color: var(--bg-color);
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px ;
+    text-decoration: none;
+}
+.item-card-cup:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+   
+}
+.item-card-cup div{
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+    background-color: var(--secondary-color);
+    border-radius: 0 25px 25px 25px;
+}
+.item-card-cup div p{
+    color: white;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
